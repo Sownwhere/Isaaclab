@@ -112,3 +112,8 @@ gdp@gdp:~/IsaacLab$ conda activate env_isaaclab
 
 --algorithm MAPPO
 --algorithm MAAMP
+
+
+--task  hexo
+
+(env_isaaclab) gdp@gdp:~/IsaacLab$ ./isaaclab.sh -p ~/IsaacLab/skrl/train.py --task  hexo  --algorithm IPPO
